@@ -9,17 +9,20 @@
 
 // TODO
 let evenNumber = []
+let array1 = [1, 2, 3]
+let array2 = [4, 5]
 
 for (let i = 1; i <= 100; i++) {
     if (i % 2 == 0) {
         evenNumber.push(i)
-    }    
+    }
 }
 
-console.log(evenNumber)
+// console.log(evenNumber)
+console.log(...array1, ...array2)
 
 /**
  * Jangan hapus kode di bawah ini
  */
 
- module.exports = evenNumber;
+module.exports = evenNumber;
